@@ -92,45 +92,163 @@
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
-
-        <div class="card-columns mb-4">
+        <div class="row">
+          <div class="col-xl-3">
             <div class="card profile-card" data-toggle="modal" data-target="#modal-GM">
-              <img src="img/GM_logo2.jpg" class="card-img-top">
+              <img src="img/GM_logo2.jpg" class="card-img-top mx-auto img-fluid" style="width:300px">
               <div class="card-body">
-                <h5 class="card-title">General Motors Canada</h5>
+                <h3 class="card-title">General Motors Canada</h3>
                 <p class="card-text">Electrical/Controls Engineer Co-op</p>
               </div>
             </div>
-            <div class="card profile-card" data-toggle="modal" data-target="#modal-car">
-              <img src="img/DRDC_logo.jpg" class="card-img-top">
+          </div>
+          <div class="col-xl-9">
+            <div class="card profile-card w-100" data-toggle="modal" data-target="#modal-DRDC">
+              <img src="img/DRDC_logoSharpened.jpg" class="card-img-top img-fluid">
               <div class="card-body">
-                <h5 class="card-title">Card title that wraps to a new line</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h3 class="card-title">Department of National Defence</h3>
+                <p class="card-text">Software Developer Co-op</p>
               </div>
             </div>
-  
-            <div class="modal fade" id="modal-GM" tabindex="-1" role="dialog">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title">General Motors Canada</h5>
-                    <button type="button" class="close" data-dismiss="modal">
-                      <span>&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    askjlghalkgoidsjgiosdjgif
-                    <div style="margin-bottom: 600"> </div>
+          </div>
+
+          <div class="modal fade" id="modal-GM" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title ">General Motors Canada</h3>
+                  <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="card-deck">
+                      <div class="card profile-card" data-toggle="modal" data-target="#modal-GM-Schematic">
+                        <img src="\img\handheld_continuity_tester_image.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Project Schematics</h5>
+                          <p class="card-text">Circuit design and PCB layout of GenV Handheld Continuity Testers. Not for further distribution.</p>
+                        </div>
+                      </div>
+                      <div class="card profile-card" data-toggle="modal" data-target="#modal-GM-Photos">
+                        <img src="\img\handheld_continuity_tester_image2.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Project Photos</h5>
+                          <p class="card-text">Photos of project development. Not for further distribution.</p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="\img\evaluation_image.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Work Term Evaluation</h5>
+                          <p class="card-text">Official GM end of term evaluation.</p>
+                        </div>
+                      </div>
+                    </div>
                     
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                  </div>
+                    <br><br>
+                    <p>
+                      Developed and implemented an Arduino based handheld continuity tester for seven V8 assembly line operator stations, resulting in an estimated cost savings of <strong>$101,000</strong>
+                    </p>
+                    <p>
+                      Researched engine component parameter tolerances through electrical prints and on-line data collection
+                    </p>
+                    <p>
+                      Designed custom PCBs using <strong>Altium CircuitMaker</strong> and programmed microcontrollers using <strong>C</strong> and ICSP
+                    </p>
+                    <p>
+                      Independently led project development to successfully meet all milestones
+                    </p>
+                    
+                  <div style="margin-bottom: 600"> </div>
+                  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
           </div>
 
+          <div class="modal fade" id="modal-GM-Schematic" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Handheld Continuity Tester Circuit Design and PCB Layout</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                      <span>&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+
+                      <iframe src="https://drive.google.com/file/d/1zHLHMFTqNOhevcfPoEkgWsoVyIJNz7f0/preview" width="100%" height="700px"></iframe>
+
+                  <div style="margin-bottom: 600"> </div>
+                    
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="modal-GM-Photos" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Handheld Continuity Tester Photos</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                      <span>&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+
+                      <img src="\img\existing_continuity_tester.jpg" width="500" class="center">
+
+                  <div style="margin-bottom: 600"> </div>
+                    
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="modal-DRDC" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Department of National Defence</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                      <span>&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+
+                      <img src="img/DRDC_logoSharpened.jpg" class="card-img-top">
+
+                      <p>
+                        Developed a genetic algorithm in <strong>C</strong> to optimize operator layouts for high density military workspaces
+                      </p>
+                      <p>
+                        Created a Windows Forms Application in C# as a GUI to select workspace parameters and display simulation results
+                      </p>
+                      <p>
+                        Coauthoured a published DRDC scientific report and an HFES conference paper on project results
+                      </p>
+                    <div style="margin-bottom: 600"> </div>
+                    
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
         <!----
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
