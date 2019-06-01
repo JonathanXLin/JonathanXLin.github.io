@@ -13,7 +13,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 30rem;
   }
 }
 
@@ -83,6 +83,10 @@ p.lead {
   color: #BD5D38;
 }
 
+.profile-card {
+  cursor: pointer;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -106,7 +110,7 @@ p.lead {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: 30rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -143,6 +147,7 @@ p.lead {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
+    font-size: 24px;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
