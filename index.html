@@ -25,8 +25,8 @@
 
 <body id="page-top">
 
-  
-  
+
+
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -35,7 +35,8 @@
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -75,8 +76,8 @@
         <p class="lead mb-5">Avid creator, explorer, and tinkerer for embedded systems and digital electronics. </p>
         <div class="social-icons">
           <a href="#">
-                <i class="fab fa-github"></i>
-              </a>
+            <i class="fab fa-github"></i>
+          </a>
           <a href="#">
             <i class="fab fa-linkedin-in"></i>
           </a>
@@ -92,239 +93,205 @@
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
-        <div class="row">
-          <div class="col-xl-3">
-            <div class="card profile-card" data-toggle="modal" data-target="#modal-GM">
-              <img src="img/GM_logo2.jpg" class="card-img-top mx-auto img-fluid" style="width:300px">
-              <div class="card-body">
-                <h3 class="card-title">General Motors Canada</h3>
-                <p class="card-text">Electrical/Controls Engineer Co-op</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-9">
-            <div class="card profile-card w-100" data-toggle="modal" data-target="#modal-DRDC">
-              <img src="img/DRDC_logoSharpened.jpg" class="card-img-top img-fluid">
-              <div class="card-body">
-                <h3 class="card-title">Department of National Defence</h3>
-                <p class="card-text">Software Developer Co-op</p>
-              </div>
-            </div>
-          </div>
 
-          <div class="modal fade" id="modal-GM" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-xl" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3 class="modal-title ">General Motors Canada</h3>
-                  <button type="button" class="close" data-dismiss="modal">
-                    <span>&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <div class="card-deck">
-                      <div class="card profile-card" data-toggle="modal" data-target="#modal-GM-Schematic">
-                        <img src="\img\handheld_continuity_tester_image.jpg" class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Project Schematics</h5>
-                          <p class="card-text">Circuit design and PCB layout of GenV Handheld Continuity Testers. Not for further distribution.</p>
-                        </div>
+        <div class="card profile-card" data-toggle="modal" data-target="#modal-GM" style="width: 35rem;">
+          <img src="img/GM_logo2.jpg" class="card-img-top img-fluid" style="width:100%">
+          <div class="card-body">
+            <h3 class="card-title">General Motors Canada</h3>
+            <p class="card-text">Electrical/Controls Engineer Co-op</p>
+          </div>
+        </div>
+
+        <div class="mb-4"></div>
+
+        <div class="card profile-card" data-toggle="modal" data-target="#modal-DRDC" style="width: 35rem;">
+          <img src="img/DRDC_logoSharpened.jpg" class="card-img-top img-fluid" style="width:100%">
+          <div class="card-body">
+            <h3 class="card-title">Department of National Defence</h3>
+            <p class="card-text">Software Developer Co-op</p>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modal-GM" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title ">General Motors Canada</h3>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span>&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  At General Motors Canada, I developed and implemented an <strong>Arduino</strong> based handheld continuity tester for
+                  seven V8 assembly line operator stations. This project replaced the original plan to purchase a
+                  duplicate test unit at every station, resulting in an estimated cost savings of
+                  <strong>$101,000</strong>.
+                </p>
+                <p>
+                  These handheld test units check engine electrical components for correct continuity, resistance,
+                  and/or voltage. Its common design is configurable for use at any continuity test station.
+                </p>
+                <p>
+                  Circuit design and PCB layouts were done using <strong>Altium CircuitMaker</strong> and Atmel
+                  microcontrollers were programmed using <strong>C</strong> and ICSP.
+                </p>
+                <p>
+                  All project milestones were successfully met, and all continuity test station bypass procedures were
+                  updated. Line operators and team leaders were trained to use the handheld testers.
+                </p>
+
+                <div class="mb-5"></div>
+
+                <div id="accordion">
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapsePhotos">
+                          Project Photos
+                        </a>
                       </div>
-                      <div class="card profile-card" data-toggle="modal" data-target="#modal-GM-Photos">
-                        <img src="\img\handheld_continuity_tester_image2.jpg" class="card-img-top">
+                      <div id="collapsePhotos" class="collapse" data-parent="#accordion">
                         <div class="card-body">
-                          <h5 class="card-title">Project Photos</h5>
-                          <p class="card-text">Photos of project development. Not for further distribution.</p>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <img src="\img\evaluation_image.jpg" class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Work Term Evaluation</h5>
-                          <p class="card-text">Official GM end of term evaluation.</p>
+                          <p>
+
+                              <div class="mb-4"></div>
+                              <figure class="figure text-center">
+                                <img src="img/complete_board.jpg" class="figure-img img-fluid rounded" width="60%">
+                                <figcaption class="figure-caption">Completed continuity test board</figcaption>
+                              </figure>
+
+                              <div class="mb-4"></div>
+                              <figure class="figure text-center">
+                                <img src="img/handheld_continuity_tester_image2.jpg" class="figure-img img-fluid rounded" width="60%">
+                                <figcaption class="figure-caption">Wiring Enclosures and Cable Assemblies</figcaption>
+                              </figure>
+
+                              <div class="mb-4"></div>
+                              <figure class="figure text-center">
+                                <img src="img/finished_products.jpg" class="figure-img img-fluid rounded" width="60%">
+                                <figcaption class="figure-caption">Completed continuity testers</figcaption>
+                              </figure>
+              
+                          </p>
                         </div>
                       </div>
                     </div>
-                    
-                    <br><br>
-                    <p>
-                      At General Motors Canada, I developed and implemented an Arduino based handheld continuity tester for seven V8 assembly line operator stations. This project replaced the original plan to purchase a duplicate test unit at every station, resulting in an estimated cost savings of <strong>$101,000</strong>.
-                    </p>
-                    <p>
-                      These handheld test units check engine electrical components for correct continuity, resistance, and/or voltage. Its common design is configurable for use at any continuity test station.
-                    </p>
-                    <p>
-                      Circuit design and PCB layouts were done using <strong>Altium CircuitMaker</strong> and Atmel microcontrollers were programmed using <strong>C</strong> and ICSP.
-                    </p>
-                    <p>
-                      All project milestones were successfully met, and all continuity test station bypass procedures were updated. Line operators and team leaders were trained to use the handheld testers.
-                    </p>
-                    
-                  <div style="margin-bottom: 600"> </div>
-                  
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
+                    <div class="card">
+                        <div class="card-header">
+                          <a class="card-link" data-toggle="collapse" href="#collapseSchematic">
+                            Schematic and Board Layout
+                          </a>
+                        </div>
+                        <div id="collapseSchematic" class="collapse" data-parent="#accordion">
+                          <div class="card-body">
+                            
+                              <div style="text-align: center"><iframe src="https://drive.google.com/file/d/1zHLHMFTqNOhevcfPoEkgWsoVyIJNz7f0/preview" width="100%" height="500rem"></iframe></div>
+                              <figcaption class="figure-caption text-center">Continuity tester schematic and board layout</figcaption>
+
+                          </div>
+                        </div>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
-
-          <div class="modal fade" id="modal-GM-Schematic" tabindex="-1" role="dialog">
-              <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title">Handheld Continuity Tester Circuit Design and PCB Layout</h5>
-                    <button type="button" class="close" data-dismiss="modal">
-                      <span>&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-
-                      <iframe src="https://drive.google.com/file/d/1zHLHMFTqNOhevcfPoEkgWsoVyIJNz7f0/preview" width="100%" height="700px"></iframe>
-
-                  <div style="margin-bottom: 600"> </div>
-                    
-                  </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="modal fade" id="modal-GM-Photos" tabindex="-1" role="dialog">
-              <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title">Handheld Continuity Tester Photos</h5>
-                    <button type="button" class="close" data-dismiss="modal">
-                      <span>&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-
-                      <img src="\img\existing_continuity_tester.jpg" width="500" class="center">
-                      <br>
-                      An existing continuity tester. GM St. Catharine's 7 continuity testers frequently malfunction/break.
-                      <br>
-                      <br>
-                      <img src="\img\acquiring_parts.jpg" width="500" class="center">
-                      <br>
-                      All parts are ordered after a prototype is successfully demonstrated.
-                      <br>
-                      <br>
-                      <img src="\img\fabrication.jpg" width="500" class="center">
-                      <br>
-                      PCB fabrication was done with JLCPCB, and all soldering was done by me in-house.
-                      <br>
-                      <br>
-                      <img src="\img\complete_board.jpg" width="500" class="center">
-                      <br>
-                      A complete continuity tester board. All 7 handheld testers use the same reconfigurable board.
-                      <br>
-                      <br>
-                      <img src="\img\wiring_enclosures.jpg" width="500" class="center">
-                      <br>
-                      Enclosures and cable assemblies are wired to the boards.
-                      <br>
-                      <br>
-                      <img src="\img\handheld_continuity_tester_image2.jpg" width="500" class="center">
-                      <br>
-                      <img src="\img\finished_products.jpg" width="500" class="center">
-                      <br>
-                      Enclosures and cable assemblies are wired to the boards.
-
-                  <div style="margin-bottom: 600"> </div>
-                    
-                  </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="modal fade" id="modal-DRDC" tabindex="-1" role="dialog">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title">Department of National Defence</h5>
-                    <button type="button" class="close" data-dismiss="modal">
-                      <span>&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-
-                      <img src="img/DRDC_logoSharpened.jpg" class="card-img-top">
-
-                      <p>
-                        Developed a genetic algorithm in <strong>C</strong> to optimize operator layouts for high density military workspaces
-                      </p>
-                      <p>
-                        Created a Windows Forms Application in C# as a GUI to select workspace parameters and display simulation results
-                      </p>
-                      <p>
-                        Coauthoured a published DRDC scientific report and an HFES conference paper on project results
-                      </p>
-                    <div style="margin-bottom: 600"> </div>
-                    
-                  </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
         </div>
-        </div>
-        <!----
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Electrical/Controls Engineer</h3>
-            <div class="subheading mb-3">General Motors Canada</div>
-              <p>
-                Developed and implemented an Arduino based handheld continuity
-                tester for seven V8 assembly line operator stations, resulting in an
-                estimated cost savings of <strong>$101,000</strong>
-              </p>
-              <p>
-                Independently led project development to successfully meet all milestones
-              </p>
-              <p>
-                Researched engine component parameter tolerances through electrical
-                prints and on-line data collection
-              </p>
-              <p>
-                Designed custom PCBs using <strong>Altium CircuitMaker</strong> and programmed
-                microcontrollers using <strong>C</strong> and ICSP
-              </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Jan. 2019 - May 2019</span>
+
+
+        <div class="modal fade" id="modal-DRDC" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title ">Department of National Defence</h3>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span>&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  At the Department of National Defence, I developed a genetic algorithm in <strong>C</strong> and a Windows Desktop App GUI in <strong>C#</strong> to optimize operator layouts of high density military workspaces.
+                </p>
+                <p>
+                  I <strong>co-authored</strong> two published papers on this project's results: DRDC Reference Document (DRDC-RDDC-2018-D139) and an HFES Conference Paper. Both are unclassified and are provided below.
+                </p>
+
+                <div class="mb-4"></div>
+
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="card-link" data-toggle="collapse" href="#collapseSummary">
+                        Project Summary
+                      </a>
+                    </div>
+                    <div id="collapseSummary" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>
+                          Workspaces are modelled as discrete m x n grids, and operator teams are modelled as directional weighted connections. Each grid element is selected as "open", "barrier", or "inaccessible". Operator desks are represented as sizeable rectangles on the workspace grid.
+
+                          <figure class="figure text-center">
+                            <img src="img/operator_connections.JPG" class="figure-img img-fluid rounded" width="60%">
+                            <figcaption class="figure-caption">Weighted operator connections and sizes</figcaption>
+                          </figure>
+                          
+                          Starting with a population of initial guesses, successive generations are mutated and evaluated using a fitness function. This fitness function evaluates each candidate solution according to the shortest path distance between each operator pair and its weight. Probabilities of mutation for the next generation are proportional to the fitness of that candidate. After a user specified number of generations, the highest fitness candidate is presented.
+
+                          <div class="mb-4"></div>
+                          <figure class="figure text-center">
+                            <img src="img/ga_convergence.JPG" class="figure-img img-fluid rounded" width="100%">
+                            <figcaption class="figure-caption">Convergence to optimal solution over 2000 iterations</figcaption>
+                          </figure>
+
+                          <div class="mb-4"></div>
+                          <figure class="figure text-center">
+                            <img src="img/ga_graph.JPG" class="figure-img img-fluid rounded" width="70%">
+                            <figcaption class="figure-caption">Progression of best and average fitness scores for each generation</figcaption>
+                          </figure>
+
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseDocuments">
+                          Published Documents
+                        </a>
+                      </div>
+                      <div id="collapseDocuments" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <div class="mb-5"></div>
+  
+                            <div style="text-align: center"><iframe src="https://drive.google.com/file/d/1GBSnum7oaVvqmZ5ohiXRi8hdfUsuaLcW/preview" width="100%" height="500rem"></iframe></div>
+                            <figcaption class="figure-caption text-center">HFES Conference Paper</figcaption>
+          
+                          <div class="mb-5"></div>
+          
+                          <div class="mb-5"></div>
+          
+                            <div style="text-align: center"><iframe src="https://drive.google.com/file/d/0B_OZ88iyEytieWpTT2JoY2hhbnFyVlZoVWlselRydWFudmlj/preview" width="100%" height="500rem"></iframe></div>
+                            <figcaption class="figure-caption text-center">DRDC Reference Document</figcaption>
+          
+                          <div class="mb-5"></div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Developer</h3>
-            <div class="subheading mb-3">Department of National Defence</div>
-            <p>
-              Developed a genetic algorithm in <strong>C</strong> to optimize operator layouts for high density military workspaces
-            </p>
-            <p>
-              Created a Windows Forms Application in C# as a GUI to select workspace parameters and display simulation results
-            </p>
-            <p>
-              Coauthoured a published DRDC scientific report and an HFES conference paper on project results
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2018 - Sept. 2018</span>
-          </div>
-        </div>
+
+
       </div>
-    -->
     </section>
 
     <hr class="m-0">
@@ -333,27 +300,30 @@
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
 
-        
+
         <div class="card-deck mb-4">
           <div class="card profile-card" data-toggle="modal" data-target="#modal-car">
             <img src="img/car.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Card title that wraps to a new line</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
           </div>
           <div class="card profile-card" data-toggle="modal" data-target="#modal-car">
             <img src="img/car.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Card title that wraps to a new line</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
           </div>
           <div class="card profile-card" data-toggle="modal" data-target="#modal-car">
             <img src="img/car.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Card title that wraps to a new line</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
           </div>
 
@@ -369,7 +339,7 @@
                 <div class="modal-body">
                   askjlghalkgoidsjgiosdjgif
                   <div style="margin-bottom: 6000px"> </div>
-                  
+
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -379,7 +349,7 @@
           </div>
         </div>
 
-        
+
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -476,8 +446,12 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier
+          and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and
+          kayaking.</p>
+        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows,
+          I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements
+          in the front-end web development world.</p>
       </div>
     </section>
 
@@ -519,7 +493,7 @@
 
   </div>
 
-  
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
