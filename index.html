@@ -67,21 +67,19 @@
         <h1 class="mb-0">Jonathan
           <span class="text-primary">Lin</span>
         </h1>
-        <div class="subheading mb-5">2B Mechatronics, University of Waterloo <br>
+        <div class="subheading mb-5">3A Mechatronics, University of Waterloo <br>
           <a href="mailto:x99lin@uwaterloo.ca">x99lin@uwaterloo.ca</a>
         </div>
-        <p class="lead mb-5">Avid creator, explorer, and tinkerer for embedded systems and digital electronics. </p>
-
-        <iframe width="100%" height="265" src="https://clyp.it/rgdelyno/widget" frameborder="0"></iframe>
+        <p class="lead mb-5">Avid creator, explorer, and tinkerer for embedded systems and digital electronics.</p>
 
         <div class="social-icons">
-          <a href="#">
+          <a href="https://www.github.com\JonathanXLin">
             <i class="fab fa-github"></i>
           </a>
           <a href="#">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/jonathan.lin.148">
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
@@ -90,25 +88,142 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+    <section class="resume-section p-3 p-lg-5 justify-content-center" id="experience">
+      <h2 class="mb-5">Experience</h2>
 
-        <div class="card profile-card" data-toggle="modal" data-target="#modal-GM" style="width: 50rem;">
-          <img src="img/GM_logo2.jpg" class="card-img-top img-fluid" style="width:100%">
+      <br>
+      <br>
+
+      <div class="card-deck">
+        <div class="card profile-card" data-toggle="modal" data-target="#modal-Bendix" style="width: 30rem;">
+          <img src="img/Bendix.png" class="card-img-top img-fluid" style="width:100%">
           <div class="card-body">
-            <h3 class="card-title">General Motors Canada</h3>
-            <p class="card-text">Electrical/Controls Engineer Co-op</p>
+            <h3 class="card-title">Mechatronics Product Development</h3>
+            <p class="card-text">Bendix Commercial Vehicle Systems</p>
+
+            <br>
+
+            <span class="badge badge-danger">&nbsp;C&nbsp;</a></span>
+            <span class="badge badge-primary">C++</span> 
+            <span class="badge badge-dark">VBA</span> 
+            <span class="badge badge-warning">Arduino</span> 
+            <br>
+            <span class="badge badge-info">Vector CAN Tools</span> 
+            <span class="badge badge-success">Agile/Scrum</span> 
+            
           </div>
         </div>
 
         <div class="mb-5"></div>
 
-        <div class="card profile-card" data-toggle="modal" data-target="#modal-DRDC" style="width: 50rem;">
-          <img src="img/DRDC_logoSharpened.jpg" class="card-img-top img-fluid" style="width:100%">
+        <div class="card profile-card" data-toggle="modal" data-target="#modal-GM" style="width: 30rem;">
+          <img src="img/gm.jpg" class="card-img-top img-fluid" style="width:100%">
           <div class="card-body">
-            <h3 class="card-title">Department of National Defence</h3>
-            <p class="card-text">Software Developer Co-op</p>
+            <h3 class="card-title">Electronics & Controls Engineering</h3>
+            <p class="card-text">General Motors Canada</p>
+
+            <br>
+
+            <span class="badge badge-primary">C++</span> 
+            <span class="badge badge-warning">Arduino</span> 
+            <span class="badge badge-dark">Circuit Design</span> 
+            <br>
+            <span class="badge badge-secondary">Siemens Step 7</span> 
+            <span class="badge badge-info">Siemens WinCC</span> 
+
+          </div>
+        </div>
+
+        <div class="mb-5"></div>
+
+        <div class="card profile-card" data-toggle="modal" data-target="#modal-DRDC" style="width: 30rem;">
+          <img src="img/DND_logo.jpg" class="card-img-top img-fluid" style="width:100%">
+          <div class="card-body">
+            <h3 class="card-title">Software Development and Research</h3>
+            <p class="card-text">Department of National Defence</p>
+
+            <br>
+            <span class="badge badge-danger">&nbsp;C&nbsp;</a></span> 
+            <span class="badge badge-success">C#</span> 
+            <span class="badge badge-dark">Technical Writing</span> 
+
+          </div>
+        </div>
+
+        <div class="modal fade" id="modal-Bendix" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title ">Bendix Commercial Vehicle Systems</h3>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span>&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  At Bendix, I created a <strong>CAN data analysis tool</strong> to automatically flag incorrect or unexpected vehicle ECU behavior. 
+                  I successfully used this tool to analyze months of CAN data from tests of a new vehicle safety system, which <strong>discovered and classified multiple firmware bugs</strong>.
+                </p>
+                <p>
+                  I also took the initiative to independently create a CAN transmitter to simulate a vehicle's CAN network during long term environmental testing of new ECUs. This was done using an <strong>Arduino</strong> and an MCP2515 CAN controller.
+                </p>
+
+                <div class="mb-5"></div>
+
+                <div id="accordion">
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapsePhotos">
+                          Project Photos
+                        </a>
+                      </div>
+                      <div id="collapsePhotos" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>
+
+                              <div class="mb-4"></div>
+                              <figure class="figure text-center">
+                                <img src="img/complete_board.jpg" class="figure-img img-fluid rounded" width="60%">
+                                <figcaption class="figure-caption">Completed continuity test board</figcaption>
+                              </figure>
+
+                              <div class="mb-4"></div>
+                              <figure class="figure text-center">
+                                <img src="img/handheld_continuity_tester_image2.jpg" class="figure-img img-fluid rounded" width="60%">
+                                <figcaption class="figure-caption">Wiring Enclosures and Cable Assemblies</figcaption>
+                              </figure>
+
+                              <div class="mb-4"></div>
+                              <figure class="figure text-center">
+                                <img src="img/finished_products.jpg" class="figure-img img-fluid rounded" width="60%">
+                                <figcaption class="figure-caption">Completed continuity testers</figcaption>
+                              </figure>
+              
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                          <a class="card-link" data-toggle="collapse" href="#collapseSchematic">
+                            Schematic and Board Layout
+                          </a>
+                        </div>
+                        <div id="collapseSchematic" class="collapse" data-parent="#accordion">
+                          <div class="card-body">
+                            
+                              <div style="text-align: center"><iframe src="https://drive.google.com/file/d/1zHLHMFTqNOhevcfPoEkgWsoVyIJNz7f0/preview" width="100%" height="500rem"></iframe></div>
+                              <figcaption class="figure-caption text-center">Continuity tester schematic and board layout</figcaption>
+
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -129,16 +244,12 @@
                   <strong>$101,000</strong>.
                 </p>
                 <p>
-                  These handheld test units check engine electrical components for correct continuity, resistance,
-                  and/or voltage. Its common design is configurable for use at any continuity test station.
-                </p>
-                <p>
                   Circuit design and PCB layouts were done using <strong>Altium CircuitMaker</strong> and Atmel
                   microcontrollers were programmed using <strong>C</strong> and ICSP.
                 </p>
                 <p>
                   All project milestones were successfully met, and all continuity test station bypass procedures were
-                  updated. Line operators and team leaders were trained to use the handheld testers.
+                  updated.
                 </p>
 
                 <div class="mb-5"></div>
@@ -212,7 +323,7 @@
               </div>
               <div class="modal-body">
                 <p>
-                  At the Department of National Defence, I developed a genetic algorithm in <strong>C</strong> and a Windows Desktop App GUI in <strong>C#</strong> to optimize operator layouts of high density military workspaces.
+                  At the Department of National Defence, I developed a genetic algorithm in <strong>C</strong> and a user interface in <strong>C#</strong> to optimize operator layouts of high density military workspaces.
                 </p>
                 <p>
                   I <strong>co-authored</strong> two published papers on this project's results: DRDC Reference Document (DRDC-RDDC-2018-D139) and an HFES Conference Paper. Both are unclassified and are provided below.
